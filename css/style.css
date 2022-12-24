@@ -1656,6 +1656,15 @@ html.touch .menu__item.active .menu__arrow {
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
             transform: translate(0, -50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .spoller-menu-footer__title._spoller-active::before {
+    -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
   }
 
   .download-footer__apps {
